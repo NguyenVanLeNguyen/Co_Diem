@@ -5,6 +5,8 @@
  */
 package component;
 
+import java.lang.annotation.Documented;
+
 /**
  *
  * @author nguyen
@@ -35,6 +37,8 @@ public class Point {
     public void setY_value(byte y_value) {
         this.y_value = y_value;
     }
+    
+    
     
     public Point[] realizableMove(byte[][] broardChess){
         Point[] Moves = new Point[8];

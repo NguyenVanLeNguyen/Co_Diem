@@ -20,14 +20,16 @@ public class CoDiem {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         byte[][] BroadChess = new byte[8][8];
         byte u = 0;
         byte i = (byte) (u + 1);
         
     }
     
-    public void updateStatus(){
+    public void updateStatus()
+    {
         for(int i=1; i <= 8; i++)
         {
           for(int j = 1; j <= 8; j++)
@@ -36,7 +38,8 @@ public class CoDiem {
           }  
         }
         
-        for(int i = 0; i < 6; i++){
+        for(int i = 0; i < 6; i++)
+        {
             if( (white[i].getX_value() != 0) || (white[i].getY_value() != 0) )
             {
                 broadChess[white[i].getX_value()][white[i].getY_value()] = 1; 
